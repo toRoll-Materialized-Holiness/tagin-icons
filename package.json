@@ -1,0 +1,25 @@
+{
+  "name": "@toroll/tagin-icons",
+  "version": "0.1.0",
+  "description": "Icon package to display hebrew letters with decorations",
+  "main": "index.js",
+  "files": [
+    "icons/"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./png/*": "./icons/png/*.png"
+  },
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "torah",
+    "tagin",
+    "hebrew",
+    "research"
+  ],
+  "author": "",
+  "license": "ISC"
+}
