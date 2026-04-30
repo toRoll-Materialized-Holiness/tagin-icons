@@ -8,7 +8,7 @@
   ],
   "exports": {
     ".": "./index.js",
-    "./png/*": "./icons/png/*.png"
+    "./svg/*": "./icons/svg/*.svg"
   },
   "types": "index.d.ts",
   "scripts": {

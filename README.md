@@ -6,9 +6,6 @@ The package currently only contains unusual letter decorations, not standard dec
 The vocabulary describing the letter terms used in the icon names can be found at 
 https://toroll-materialized-holiness.github.io/skohub-pages/w3id.org/toRoll/vocs/taginOM
 
-The package currently only provides png files. The size of the original files may vary,
-it is recommended to use them with 
-
 ## Installation
 
 ## Usage
@@ -18,7 +15,7 @@ it is recommended to use them with
 importing a single icon directly
 
 ```js
-import myDecoratedAlef from "@toroll/tagin-icons/png/alef_1000.png"
+import myDecoratedAlef from "@toroll/tagin-icons/svg/alef_1000.svg"
 ```
 
 importing all icons to use them by their name
@@ -32,7 +29,7 @@ img.src = icons["alef_1000"]
 ### Client-side
 
 ```html
-<img width="32" src="https://<NPM CDN>/npm/@toroll/tagin-icons/icons/png/alef_1000.png" />
+<img width="32" src="https://<NPM CDN>/npm/@toroll/tagin-icons/icons/svg/alef_1000.svg" />
 ```
 
 ## Acknowledgements
