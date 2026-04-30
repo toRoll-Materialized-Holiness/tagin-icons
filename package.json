@@ -9,7 +9,11 @@
     "icons/"
   ],
   "exports": {
-    ".": "./index.js",
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+
     "./svg/*": "./icons/svg/*.svg"
   },
   "types": "index.d.ts",
