@@ -4,6 +4,8 @@
   "description": "Icon package to display hebrew letters with decorations",
   "main": "index.js",
   "files": [
+    "index.js",
+    "index.d.ts",
     "icons/"
   ],
   "exports": {
