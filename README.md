@@ -38,5 +38,7 @@ img.src = icons["alef_1000"]
 ## Acknowledgements
 
 Research that lead to discovery and definition of the letter decorations provided in this icon set has been conducted
-in the project "toRoll - Materialized Holiness"
+in the project "[toRoll - Materialized Holiness](https://www.geschkult.fu-berlin.de/e/materialisierte-heiligkeit/index.html)"
 funded by the Federal Ministry of Research, Technology and Space (01UL2202B).
+
+The letters in this icon pack are based on the [Noto Serif Hebrew](https://fonts.google.com/noto/specimen/Noto+Serif+Hebrew/about) font.
