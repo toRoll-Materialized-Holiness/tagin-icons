@@ -19,12 +19,10 @@ const exports = files
     .filter(f => f.endsWith(".svg"))
     .map(f => {
         const name = path.basename(f, ".svg");
-        return `  ${name}`;
+        return `  ${name}: "${ICON_DIR_STRING + "/" + f}"`;
     })
 
 const output = `// AUTO-GENERATED — do not edit
-${imports.join("\n")}
-
 export const icons = {
 ${exports.join(",\n")}
 };
