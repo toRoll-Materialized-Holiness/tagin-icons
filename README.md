@@ -10,7 +10,9 @@ https://toroll-materialized-holiness.github.io/skohub-pages/w3id.org/toRoll/vocs
 
 ## Usage
 
-### Server-side
+You may inspect all available variations in the latest version in the [icon gallery](https://toroll-materialized-holiness.github.io/tagin-icons/gallery).
+
+### Server-side or bundled assets
 
 importing a single icon directly
 
@@ -29,8 +31,21 @@ img.src = icons["alef_1000"]
 ### Client-side
 
 ```html
-<img width="32" src="https://<NPM CDN>/npm/@toroll/tagin-icons/icons/svg/alef_1000.svg" />
+<img width="32" src="https://<NPM CDN>/@toroll/tagin-icons/icons/svg/<letter variant>.svg" />
 ```
+
+For example:
+
+```html
+<img width="100" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/tsade_32p.svg" alt="tsade_32p" />
+<img width="35" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/alef_3312.svg" alt="alef_3312" />
+<img width="80" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/pe_w0000000.svg" alt="pe_w0000000" />
+```
+equals
+
+<img width="100" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/tsade_32p.svg" alt="tsade_32p" />
+<img width="35" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/alef_3312.svg" alt="alef_3312" />
+<img width="80" src="https://unpkg.com/@toroll/tagin-icons/icons/svg/pe_w0000000.svg" alt="pe_w0000000" />
 
 ## Acknowledgements
 
